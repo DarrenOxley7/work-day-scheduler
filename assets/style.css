@@ -25,7 +25,7 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block {
+.time-text {
   text-align: center;
   border-radius: 15px;
 }
@@ -42,18 +42,18 @@ textarea {
   border-top: 1px dashed #000000;
 }
 
-.past {
-  background-color: #d3d3d3;
+.is-past {
+  background-color :rgb(240, 84, 84);
   color: white;
 }
 
-.present {
-  background-color: #ff6961;
+.is-present {
+  background-color: rgb(245, 177, 52);
   color: white;
 }
 
-.future {
-  background-color: #77dd77;
+.is-future {
+  background-color: rgb(46, 219, 46);
   color: white;
 }
 
